@@ -1,0 +1,242 @@
+body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background:#fff;
+    font-size: 12px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+input[type=text], input[type=file], input[type=password]{
+    background:#fff;
+}
+
+textarea{
+    background:#fff;
+    width:400px;
+    height:100px;
+}
+
+img{
+    border:none;
+    }
+    
+a{
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+ul{
+    margin-left:-10px;
+    color:#fff;
+}
+
+ul a{
+    color:#fff;
+    font-size:12px;
+
+}
+
+ul li{
+    padding-bottom:10px;
+}
+
+#main{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#container{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+#container div{
+    position: absolute;
+}
+
+#header{
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 119px;
+    background: url(images/header.png);
+    z-index:2;
+}
+
+#pageContent{
+    top: 87px;
+    left: 0px;
+    width: 1000px;
+    height: 1200px;
+    background-image: url(images/contentbg.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center bottom;
+    overflow:hidden;
+    z-index:1;
+
+}
+
+#menu{
+    padding:20px;
+    top: 50px;
+    left: 30px;
+    width: 240px;
+    height: 1100px;
+    background:rgba(228,27,11,0.7);
+    border-radius: 15px;
+}
+
+#menu span{
+    color:#fff;
+    font-size:15px;
+    cursor:pointer;
+    background:url(images/plus.png) no-repeat;
+    padding-left:20px;
+}
+
+#menu span.opened{
+    background:url(images/minus.png) no-repeat;
+}
+
+#gallery{
+    top: 50px;
+    left: 340px;
+    width: 590px;
+    background:rgba(228,27,11,0.7);
+    border-radius: 15px;
+    color:#fff;
+    font-size:13px;
+    padding:20px;
+    overflow:auto;
+    height: 1070px;
+}
+
+#gallery span{
+    text-align:center;
+    display:block;
+}
+
+#gallery form{
+    text-align:center;
+    padding-top:0px;
+    padding-bottom:50px;
+}
+
+#gallery form span{
+    height:7px;
+}
+
+#gallery table{
+    border:none;
+}
+
+#gallery table td{
+    border:none;
+    padding:5px;
+    padding-bottom:35px;
+    padding-top:0px;
+    text-align:center;
+    width:200px;
+    vertical-align:top;
+}
+
+#gallery select{
+    width:400px;
+}
+
+#gallery input{
+    width:400px;
+}
+
+#loginForm input{
+    width:200px;
+}
+
+#gallery input[type=submit]{
+    width:100px;
+}
+
+#title{
+    font-size:14px;
+    font-weight:bold;
+    display:block;
+    width:570px;
+    padding-left:10px;
+}
+
+#uploadForm{
+    display:none;
+}
+
+.thumb{
+    border:1px solid #fff;
+}
+
+.hiddenMenu{
+    display:none;
+}
+
+.smallText{
+    font-size:10px;
+}
+
+#confirmDeleteWindow{
+    position:fixed;
+    top:200px;
+    left:40%;
+    width:300px;
+    height:150px;
+    background:#fff;
+    color:#000;
+    z-index:1000;
+    display:none;
+    text-align:center;
+    border:1px solid rgb(128,128,128);
+    outline:5px solid #fff;
+}
+
+#logo{
+    position:relative;
+    left:125px;
+    top:5px;
+    border-radius: 15px;
+}
+
+#linkSpan a{
+    font-size:15px;
+    text-decoration:none;
+}
+
+.changePosForm{
+    border:1px solid #000;
+    background:#fff;
+    padding-left:5px;
+}
+
+.changePosLink{
+    text-decoration:underline;
+}
+
+.archive{
+    color:#fff;
+    font-size:14px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.archive:hover{
+    text-decoration:underline;
+}
